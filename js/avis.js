@@ -1,34 +1,27 @@
-var swiper = new Swiper(".mySwiper", {
-    slidesPerView: 3,
-    spaceBetween: 5,
-    pagination: {
-      el: ".swiper-pagination",
-      clickable: true,
-    },
-    navigation: {
-      nextEl: ".swiper-button-nexts",
-      prevEl: ".swiper-button-prevs",
-    },
-    mousewheel: true,
-    keyboard: true,
+var swiper = new Swiper(`.swiper`, {
+    direction: 'horizontal',
     loop: true,
+    navigation: {
+      nextEl: `.swiper-button-next`,
+      prevEl: `.swiper-button-prev`,
+    },
     breakpoints: {
   
-      300: {
-        slidesPerView: 1
+      768: {
+        slidesPerView: 1,
+        spaceBetween: 30,
+      },
+      1500: {
+        slidesPerView: 1,
+        spaceBetween: 30,
+  
+      },
+      500: {
+        slidesPerView: 1,
+        spaceBetween: 30,
+  
       },
   
-      501: {
-        slidesPerView: 1
-      },
-  
-      769: {
-        slidesPerView: 3,
-        spaceBetween: 10
-      },
-      1025: {
-        slidesPerView: 3,
-        spaceBetween: 10
-      },
     }
+  
   });
