@@ -105,7 +105,7 @@ span {
 p {
     font-family: var(--Lexend);
      
-    color: #686666da;
+    color: #000000da;
 }
 
 /* ------x------- Global Classes -------x-------*/
@@ -647,7 +647,7 @@ footer.footer .follow i::before {
 }
 
 footer.footer .follow a:visited {
-    color: var(--white);
+    color: #1d1d1d;
 }
 
 footer.footer .rights {
