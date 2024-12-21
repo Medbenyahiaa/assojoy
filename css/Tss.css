@@ -352,6 +352,36 @@
   margin-bottom: 0px;
   margin-left: 0px;
 }
+.desktop_7 .squareImg.six {
+  padding-top: 10px;
+  padding-right: 15px;
+  padding-bottom: 15px;
+  padding-left: 10px;
+  margin-top: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+}
+.desktop_7 .squareImg.seven {
+  padding-top: 10px;
+  padding-right: 15px;
+  padding-bottom: 15px;
+  padding-left: 10px;
+  margin-top: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+}
+.desktop_7 .squareImg.eight {
+  padding-top: 10px;
+  padding-right: 15px;
+  padding-bottom: 15px;
+  padding-left: 10px;
+  margin-top: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+}
 
 @media (max-width: 1024px) {
   .desktop_7 .Container {
@@ -392,6 +422,24 @@
   }
 
   .desktop_7 .squareImg.five {
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+  }
+  .desktop_7 .squareImg.six {
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+  }
+  .desktop_7 .squareImg.seven {
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+  }
+  .desktop_7 .squareImg.eight {
     padding-top: 10px;
     padding-right: 10px;
     padding-bottom: 10px;
